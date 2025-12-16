@@ -1,8 +1,8 @@
 // 
-// - Clinet used 
+// - Client used 
 //
 
-import Foundation 
+import Foundation
 
 public struct Client: Decodable, Hashable, Encodable, Sendable {
     public let ip: String 
