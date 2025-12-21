@@ -6,7 +6,7 @@ import Foundation
 import os.log
 
 @available(iOS 15, macOS 12, *)
-public class FastApi: @unchecked Sendable {
+public class FastApi: @unchecked Sendable { 
     public static let shared: FastApi = FastApi()
     let logger = Logger()
     let session: URLSession = {

@@ -11,7 +11,7 @@ public struct Location: Decodable, Hashable, Encodable, Sendable {
     enum CodingKeys: String, CodingKey {
         case city = "city"
         case country = "country"
-    }
+    } 
     
     public init(from decoder: any Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
