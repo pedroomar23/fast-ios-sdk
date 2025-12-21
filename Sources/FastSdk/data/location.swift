@@ -12,4 +12,15 @@ public struct Location: Decodable, Hashable, Encodable, Sendable {
         case city = "city"
         case country = "country"
     }
+    
+    public init(from decoder: any Decoder) throws {
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+        self.city = try container.decode(String.self, forKey: .city)
+        self.country = try container.decode(String.self, forKey: .country)
+    }
+    
+    public init(city: String, country: String) {
+        self.city = city
+        self.country = country
+    }
 }
