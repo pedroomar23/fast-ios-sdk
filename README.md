@@ -8,10 +8,9 @@ dependencies: [
 ]
 ```
 ## Install 
-```swift
-Add FastSdk to your project Project > PackageDependencies > Page Library Link > Select Target Name > Add
-import FastSdk
-```
+- Go to File > Add Package
+- Paste Github Link: ```swift "https://github.com/pedroomar23/fast-ios-sdk.git" ```
+- Add Package > Select Target > Add 
 ## Examples 
 ```swift
   import FastSdk
