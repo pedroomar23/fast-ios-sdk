@@ -9,7 +9,7 @@ dependencies: [
 ```
 ## Install 
 - Go to File > Add Package
-- Paste Github Link: ```swift "https://github.com/pedroomar23/fast-ios-sdk.git" ```
+- Paste Github Link: ```"https://github.com/pedroomar23/fast-ios-sdk.git"```
 - Add Package > Select Target > Add 
 ## Examples 
 ```swift
